@@ -1,0 +1,22 @@
+informacion del programa.este sitio web es un seguro para vehiculos en el cual implementamos html css php y sql,
+en el cual tiene varios apartados tanto para clientes como para los administradores, funciones de los clientes:
+los clientes pueden agregar vehiculos de su preferencia, tanto autos como motos, como sabemos el unico dato 
+que no se podria repetir en la base de datos es la placa, ya que si ya la tenemos registrada no se registrara de 
+nuevo si se ingresa la misma placa, tambien se implementaron funciones como:
+1. sera obligatorio llenar todos los campos.
+2. se le mostrara la informacion que ingreso el cliente.
+3. el cliente tiene 24 horas para editar algun dato(esto solo lo puede hacer un administrador).
+4. como ya lo mencione si la placa ya esta registrada no se registrara los datos del usuario.
+5. tendra que aceptar terminos y condiciones.
+el cliente tambien tiene la opcion de iniciar sesion, esto para poder ver la informacion de sus automoviles registrados
+aca el cliente puede optar por ingresar solo la identificacion, en cuyo caso se le mostraran todos los vehiculos que 
+esten registrados con esa identificacion, o tambien si quiere la informacion de un vehiculo en particular ingresara 
+tanto la identificacion como la placa, estas son las unicas funciones del cliente, registrar y visualisar sus datos.
+ahora la parte del administrador, este tendra la posibilidad de ver todos los autos registrados tanto autos como motos
+tambien podra editar datos de los clientes, como sabemos los seguros tienen que tener informacion precisa en dado caso 
+de ocurrir un accidente los datos del seguro deben coicidir con los datos del vehiculo, entonces puede que el cliente 
+cometiera alguna equivocacion al momento de ingresar los datos, para ello tendra que llamar al adminitrador, y proporcionar
+la identificacion que digito y la placa, y decir que dato quiere cambiar, para ello tendra 24 horas apartir de la compra
+tambien tiene la parte de eliminar vehiculos, como sabemos los seguros generalmente duran 1 año, asi que despues de 1 año
+de la compra del seguro el adminitrador eliminara el vehiculo de la base de datos, para ello tendra que ingresar identificacion
+y la placa, el administrador tambien podra agregar vehiculos tanto carros como motos.
